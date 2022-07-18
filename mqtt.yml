@@ -1,0 +1,9 @@
+mqtt:
+    host: "MQTT_HOST"
+    port: MQTT_PORT
+    username: "MQTT_USER"
+    password: "MQTT_PW"
+    ssl: MQTT_SSL
+    root_topic: "MQTT_PREFIX"
+daemon:
+    update_interval: MQTT_INTERVAL
