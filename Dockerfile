@@ -2,7 +2,7 @@ FROM python:3-alpine
 
 LABEL org.opencontainers.image.source https://github.com/SENERGY-Platform/mgw-madoka-dc
 
-RUN apk add bluez && pip install pymadoka
+RUN apk add bluez git && pip install git+https://github.com/SENERGY-Platform/pymadoka.git
 
 ENV MQTT_HOST message-broker
 ENV MQTT_PORT 1883
