@@ -10,7 +10,7 @@ dependencies:
     version: <v2.0.0
     requiredServices:
       broker:
-        - refVar: $MQTT_HOST
+        - refVar: MQTT_HOST
           services:
             - mgw-madoka-dc
 services:
