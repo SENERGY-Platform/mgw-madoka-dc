@@ -5,7 +5,7 @@ LABEL org.opencontainers.image.source https://github.com/SENERGY-Platform/mgw-ma
 RUN apk add bluez git && pip install git+https://github.com/SENERGY-Platform/pymadoka.git
 
 ENV MQTT_HOST message-broker
-ENV MQTT_PORT 1883
+ENV MQTT_PORT 1881
 ENV MQTT_USER ""
 ENV MQTT_PW ""
 ENV MQTT_SSL False
